@@ -1,0 +1,41 @@
+# Ambientes Virtuais (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Bytecode do Python e Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Compilação e Empacotamento (PyInstaller / Distutils)
+build/
+dist/
+*.spec
+*.manifest
+
+# Logs e Arquivos Temporários
+*.log
+
+# Arquivos do Sistema Operacional (Windows / macOS)
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Configurações de IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Prompt
+gemini.md
