@@ -1,5 +1,5 @@
 """
-Janela principal da aplicação de Teclado Virtual ABNT2 para Aulas e Apresentações.
+Janela principal da aplicação TeclaNaTela (Teclado Didático ABNT2 para Aulas e Apresentações).
 Fornece controles de Always on Top (Fixar no topo), modo de visualização, temas e opacidade.
 """
 
@@ -18,7 +18,7 @@ from keyboard_hook import KeyboardHookThread
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Teclado Virtual ABNT2 - Modo Aula")
+        self.setWindowTitle("TeclaNaTela - Teclado Virtual ABNT2")
         self.resize(1080, 320)
         self.setMinimumSize(700, 220)
 
@@ -132,7 +132,7 @@ class MainWindow(QMainWindow):
         top_layout.setSpacing(6)
 
         # Título conciso
-        lbl_title = QLabel("⌨ Teclado ABNT2", self)
+        lbl_title = QLabel("⌨ TeclaNaTela", self)
         lbl_title.setObjectName("title_label")
         top_layout.addWidget(lbl_title)
 
@@ -266,7 +266,7 @@ class MainWindow(QMainWindow):
         msg.setWindowTitle("Ajuda & Instruções de Uso")
         msg.setTextFormat(Qt.RichText)
         msg.setText("""
-        <h3>⌨ Teclado Virtual Didático ABNT2</h3>
+        <h3>⌨ TeclaNaTela - Teclado Didático ABNT2</h3>
         <p>Aplicação desenvolvida para demonstração visual em tempo real durante aulas de Computação/Informática, apresentações e compartilhamento de tela.</p>
         <hr>
         <b>Recursos e Instruções de Uso:</b>

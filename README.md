@@ -1,6 +1,6 @@
-# ⌨ Teclado Didático ABNT2 (Virtual & Interativo)
+# ⌨ TeclaNaTela - Teclado Didático ABNT2 (Virtual & Interativo)
 
-![Interface do Teclado Didático ABNT2](assets/app_preview.png)
+![Interface do TeclaNaTela](assets/app_preview.png)
 
 Aplicação desktop nativa para Windows desenvolvida especialmente para **professores e educadores de Computação/Informática**. Permite demonstrar visualmente em tempo real as teclas e atalhos físicos pressionados durante aulas ao vivo, projeções em datashow ou compartilhamento de tela.
 
@@ -42,7 +42,7 @@ Aplicação desktop nativa para Windows desenvolvida especialmente para **profes
 ### Opção 1: Executar o arquivo `.exe` pré-compilado (Recomendado)
 Basta dar dois cliques no executável:
 ```text
-dist\Teclado_Didatico_ABNT2.exe
+dist\TeclaNaTela.exe
 ```
 *(Não requer instalação nem configurações adicionais).*
 
@@ -63,7 +63,7 @@ Se você fizer modificações no código e quiser gerar um novo arquivo executá
 ```powershell
 python build_exe.py
 ```
-O executável `.exe` será gerado automaticamente na pasta `dist/Teclado_Didatico_ABNT2.exe`.
+O executável `.exe` será gerado automaticamente na pasta `dist/TeclaNaTela.exe`.
 
 ---
 

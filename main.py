@@ -1,5 +1,5 @@
 """
-Ponto de entrada principal da aplicação de Teclado Didático ABNT2.
+Ponto de entrada principal da aplicação TeclaNaTela (Teclado Didático ABNT2).
 Configura suporte a telas de alta resolução (High-DPI) e inicia o loop da aplicação.
 """
 
@@ -49,7 +49,7 @@ def main():
         QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
 
     app = QApplication(sys.argv)
-    app.setApplicationName("TecladoDidaticoABNT2")
+    app.setApplicationName("TeclaNaTela")
     app.setOrganizationName("EducacaoInformatica")
     app.setWindowIcon(create_app_icon())
 

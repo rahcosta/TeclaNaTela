@@ -8,7 +8,7 @@ import subprocess
 import os
 
 def build():
-    print("Iniciando a compilação do executável Teclado_Didatico_ABNT2.exe...")
+    print("Iniciando a compilação do executável TeclaNaTela.exe...")
     
     cmd = [
         sys.executable,
@@ -16,7 +16,7 @@ def build():
         "--noconsole",
         "--onefile",
         "--clean",
-        "--name", "Teclado_Didatico_ABNT2",
+        "--name", "TeclaNaTela",
         "main.py"
     ]
     
@@ -24,7 +24,7 @@ def build():
     result = subprocess.run(cmd)
     
     if result.returncode == 0:
-        exe_path = os.path.abspath(os.path.join("dist", "Teclado_Didatico_ABNT2.exe"))
+        exe_path = os.path.abspath(os.path.join("dist", "TeclaNaTela.exe"))
         print("\n==================================================")
         print(" COMPILAÇÃO CONCLUÍDA COM SUCESSO!")
         print(f" Executável gerado em: {exe_path}")
